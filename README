@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2865
+
+This script allows to quicky switch to Colemak   from a Qwerty keyboard, which is usefull if you are learning Colemak or want to come back to the Qwerty keybinding from a Colemaek keyboard.
+ 
+This is a an approximation of the langmap feature, but which works even if your vim version has been compiled with the langmap feature.
+
+Depending of your keyboard layout, this script will either map the qwerty key into Colemak key in insert mode
+or map the Colemak key to qwerty in command mode.
+So whatever your keyboard is Qwerty or Colemak, you could type text in Colemak and command in Qwerty.
+
+This script is disabled by default, to activate it, type \; (on a Qwerty keyboard) or \o )on a Colemak one).
+Mapping:
+<Leader>; toggle script on Qwerty keyboard
+<Leader>o toggle script activation on a Colemak keyboard
+(if you don't know wthat Leader is, it would probably be  "\" in your case, so the mapping are \; and \o)
+
+Warning, this script might interfere with your personal mapping, in that case the easiest way to do it is to delete or modify  the problematic mapping/unmapping  lines in the script.
